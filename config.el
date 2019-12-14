@@ -13,4 +13,5 @@
       doom-variable-pitch-font (font-spec :family "Cascadia Code" :size 18))
 
 ;; add bookmark plus
-(use-package! bookmark+)
+(use-package! bookmark+
+  :after bookmark)
